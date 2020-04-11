@@ -2,7 +2,7 @@
   "name": "simple-vue-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/MaheshwaranG/simple-vue-app",
+  "homepage": "https://maheshwarang.github.io/MaheshwaranG/simple-vue-app",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
