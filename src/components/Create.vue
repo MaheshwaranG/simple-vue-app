@@ -132,7 +132,7 @@ input {
   margin-left: 6px;
 }
 .input-area {
-  width: 560px;
+  width: 80%;
   margin: 6px;
   display: flex;
   justify-content: center;

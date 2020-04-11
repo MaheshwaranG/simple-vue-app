@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <h2>Project details</h2>
+      <h4 v-bind:style="{ marginLeft: '8px' }">Project details</h4>
       <div>
         <ul class="links">
           <li>

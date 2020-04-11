@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-  <div>
+  <div :style="{width:'100%'}">
   <div class="search-header">
     <select v-model="column" class="select">
       <option :value="null">No Column Filter</option>
@@ -8,6 +8,7 @@
     </select>
     <input type="text" class="search" v-model="search" placeholder="Search" />
     </div>
+    <div class="search-header">
     <table id="list">
     <col width="40px" />
     <col width="40px" />
@@ -28,6 +29,7 @@
         </tr>
       </tbody>
     </table>
+    </div>
     </div>
   </div>
 </template>
@@ -91,6 +93,9 @@ export default {
   align-items: center;
     justify-content: center;
     display: flex;
+    width: 100%;
+    height: 60%;
+    overflow: scroll;
 }
 .search-header {
   align-items: center;
