@@ -74,7 +74,11 @@ export default {
       this.$route.params.operation === "register" ? true : false;
     this.isUpdate = this.$route.params.operation === "update" ? true : false;
     if (this.isUpdate) {
-      this.user = this.$store.state.usersList[this.id];
+      this.$store.state.usersList.forEach(employee => {
+        if (employee.id === this.id) {
+          this.user = employee;
+        }
+      });
     }
   },
   computed: {},
