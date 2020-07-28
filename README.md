@@ -1,3 +1,5 @@
+https://maheshwarang.github.io/simple-vue-app/
+
 # simple-vue-app
 
 ## Project setup
